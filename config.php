@@ -1,6 +1,5 @@
 <?php
-$unitsConfig = Array(
-    "Hero" => Array(
+$heroConfig = Array(
         "name"=>"Orderus",
         "health"=>[70,100],
         "strength"=>[70,80],
@@ -9,8 +8,8 @@ $unitsConfig = Array(
         "luck"=>[10,30],
         "defence_abilities"=> array(new MagicShield),
         "offense_abilities"=> array(new RapidStrike)
-    ),
-    "Beast" => Array(
+    );
+$beastConfig = Array(
         "name"=>"Wild Beast",
         "health"=>[60,90],
         "strength"=>[60,90],
@@ -19,8 +18,7 @@ $unitsConfig = Array(
         "luck"=>[25,40],
         "defence_abilities"=> array(),
         "offense_abilities"=> array()
-    )
-);
+    );
 $battleConfig = array(
     "rounds"=>20
 );
